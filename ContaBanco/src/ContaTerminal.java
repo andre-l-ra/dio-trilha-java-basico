@@ -4,15 +4,15 @@ public class ContaTerminal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Olá, seja bem-vindo!, qual é o seu nome?");
+        System.out.println("Olá, seja bem-vindo(a)!, qual é o seu nome?");
         System.out.print("Nome: ");
         String nome = scanner.next();
 
-        System.out.printf("Olá, %s que bom te ver por aqui! Agora nos informe a agência\n", nome);
+        System.out.printf("Olá %s, que bom te ver por aqui! Agora nos informe a agência\n", nome);
         System.out.print("Agência: ");
         String agencia = scanner.next();
 
-        System.out.printf("Estamos quase lá, %s precisamos que nos informe também o número da conta\n", nome);
+        System.out.printf("Estamos quase lá %s, precisamos que nos informe também o número da conta\n", nome);
         System.out.print("Conta: ");
         int numeroConta = scanner.nextInt();
 
